@@ -218,7 +218,7 @@ section {
 
 
 /*Стили для телефона*/
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
 	body {
 		width: 100%;
 	}
