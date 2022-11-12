@@ -215,3 +215,46 @@ section {
 	padding: 40px;
 }
 /*Конец стилей четвертого блока*/
+
+
+/*Стили для телефона*/
+@media (max-width: 500px) {
+	body {
+		width: 100%;
+	}
+	
+	section {
+		width: 100%;
+	}
+	
+	.firstBlock {
+		width: 100%;
+		height: 200px;
+		line-height: 36px;
+	}
+	
+	.firstBlockBG {
+		width: auto;
+		height: 200px;
+	}
+	
+	.firstBlockWrapper {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+	
+	.firstBlockText {
+		font-size: 24px;
+		width: 100%;
+		padding: 0;
+		top: 20px;
+		left: 0;
+	}
+	
+	.firstBlockAge {
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+}
+/*Конец стилей для телефона*/
