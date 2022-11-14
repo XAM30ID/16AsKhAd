@@ -29,10 +29,6 @@ body {
 }
 /*Конец общих настроек*/
 
-section {
-	width: 100%;
-}
-
 
 /*Начало стилей первого блока*/
 .firstBlock {
@@ -223,8 +219,6 @@ section {
 /*Стили для телефона*/
 @media (max-width: 1080px) {
 	.firstBlock {
-		height: 250%;
-		width: auto;
 		margin-bottom: 20px;
 	}
 	
