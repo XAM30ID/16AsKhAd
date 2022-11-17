@@ -19,12 +19,12 @@ itachiWords.onmouseout = function() {
 
 function autoSlider () {
 	timer = setTimeout(function () {
-		offset -= 1980;
-		if (offset < -7920) {
+		offset -= 100;
+		if (offset < -400) {
 			offset = 0;
 			clearTimeout(timer);
 			}		
-		sliderLine.style.left = offset + 'px';
+		sliderLine.style.left = offset + 'vw';
 		autoSlider ();
-	}, 5000);
+	}, 10000);
 }
