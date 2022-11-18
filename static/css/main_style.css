@@ -93,7 +93,7 @@ section {
 	box-sizing:border-box;
 	transition: 1s;
 	padding-top: 5vh;
-	padding-left: 10vw;
+	padding-left: 5vw;
 	margin-left: 7vw;
 	width: 80vw;
 	height: 100vh;
@@ -109,7 +109,7 @@ section {
 }
 
 .adText {
-	margin-left: 30vw;
+	margin-left: 27vw;
 	width: 45vw;
 }
 
@@ -213,7 +213,7 @@ section {
 
 
 /*Стили для телефона*/
-@media (max-width: 1081px) {
+@media (max-width: 1170px) {
 	.firstBlockConteiner {
 		padding: 10vh 12vw;
 		width: 100vw;
