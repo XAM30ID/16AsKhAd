@@ -20,7 +20,7 @@ itachiWords.onmouseout = function() {
 function autoSlider () {
 	timer = setTimeout(function () {
 		offset -= 100;
-		if (offset < -400) {
+		if (offset < -500) {
 			offset = 0;
 			clearTimeout(timer);
 			}		
