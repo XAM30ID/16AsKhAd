@@ -78,6 +78,7 @@ section {
 /*Начало стилей второго блока*/
 .second_block {
 	text-align: center;
+	width: 100vw;
 	margin-bottom: 50px;
 }
 
@@ -93,8 +94,8 @@ section {
 	transition: 1s;
 	padding-top: 5vh;
 	padding-left: 10vw;
-	margin-left: 5vw;
-	width: 90vw;
+	margin-left: 7vw;
+	width: 80vw;
 	height: 100vh;
 	background-image: url("../images/second bg.png");
 	background-size: cover;
@@ -212,25 +213,40 @@ section {
 
 
 /*Стили для телефона*/
-@media (max-width: 1080px) {
+@media (max-width: 1081px) {
 	.firstBlockConteiner {
 		padding: 10vh 12vw;
+		width: 100vw;
+		box-sizing: border-box;
 	}
 	
 	.itachiImg {
 		position: absolute;
-		transform: scale(0.5);
-		right: -20vw;
-		bottom: 0px;
+		transform: none;
+		height: 35vh;
+		right: 0vw;
+		top: 55vh;
+	}
+	
+	.firstBlockText {
+		font-size: 8vw;
+		line-height: 5vh;
+	}
+	
+	.firstBlockAge {
+		font-size: 12vw;
+		line-height: 5vh;
 	}
 	
 	.second_block {
 		height: 150vh;
+		width: 100vw;
 	}
 	
 	.secondBlockContainer {
-		font-size: 48px;
-		line-height: 52px;
+		font-size: 10vw;
+		height: 150vh;
+		line-height: 5vh;
 	}
 	
 	.ASSheadPirate {
@@ -239,11 +255,10 @@ section {
 	}
 	
 	.adBlock {
-		padding-top: 5vh;
-		padding-left: 5vw;
-		margin: 0 3vw;
 		width: 90vw;
 		height: 150vh;
+		margin-left: 5vw;
+		padding-left: 3vw;
 	}
 	
 	.adText {
@@ -252,8 +267,9 @@ section {
 	}
 	
 	.sliderItem {
-		font-size: 44px;
-		line-height: 48px;
+		font-size: 7vw;
+		line-height: 5vh;
+		width: 100vw;
 		padding: 10vh 5vw;
 		background-position: center;
 		background-size: cover;
@@ -262,21 +278,25 @@ section {
 	
 	#Title {
 		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat
 	}
 	
 	#MtWay {
-		background-position: 0% 90%;
+		background-position: 25% 70%;
 	}
 
 	#Julia {
-		background-position: 80% 75%;
+		background-position: 90% 75%;
 	}
 	
 	.fourthBlockContainer {
+		height: 100vh;
 		background-position: 40% 0%;
 		letter-spacing: 1px;
-		padding: 3vw 3vh;
-		font-size: 48px;
+		padding: 5vh 3vw;
+		font-size: 6vw;
+		line-height: 3vh;
 	}
 
 	.fourthBlockText {
